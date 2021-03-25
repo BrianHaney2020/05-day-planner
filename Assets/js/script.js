@@ -1,14 +1,5 @@
 
-/* 
-this is test code--proof of concept
-$("#Hour10").css("background-color","green");
-console.log("this working?");
 
-var test = "#Hour" + 9;
-$(test).css("background-color","red");
-
-$("#Hour11").val("testthis");
- */ 
 
 
 //Set time
@@ -61,18 +52,7 @@ var counter = 1;
 
 //console.log("counter "+counter);
 
-/*
-This can be deleted.
-Originally, I had two for loops.  I combined them into one (above) 
 
-for (var i = 9; i<=11; i++){
-    var theHour = "Hour"+i;
-    //console.log(theHour);
-    var hourItem = localStorage.getItem(theHour);
-    if (Boolean(hourItem)){
-        $("#"+theHour).val(hourItem);
-    };
-} */
 
 // assign variables to the save buttons
 var hour9Button = document.querySelector("#Hour9Save");
