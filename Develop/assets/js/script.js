@@ -12,8 +12,8 @@ $("#Hour11").val("testthis");
 
 
 //Set time
-// var currentTime = moment();
-var currentTime = moment("10:20","HH:mm");
+var currentTime = moment();
+// var currentTime = moment("10:20","HH:mm");
 var currentDateTime = moment().format("dddd, MMMM Do YYYY");
 
 // console.log(testTime.format("HH mm"));
