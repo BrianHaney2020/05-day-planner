@@ -46,6 +46,7 @@ for (var counter = 9; counter<18; counter++){
     }; 
     //fills the input from localStorage;  
     var hourItem = localStorage.getItem(theHour);
+    console.log(counter+" "+hourItem);
     if (Boolean(hourItem)){
         $("#"+theHour).val(hourItem);
     };
